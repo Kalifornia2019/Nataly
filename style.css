@@ -1,0 +1,56 @@
+ 
+#introduction
+    {
+  font-size: 15px;
+  line-height: 1.42857143;
+  font-weight: bold;
+  font-family: "Arial";
+  color: #333;
+  border: border-dark;
+  margin-top: 40px;
+}
+
+#cont1{
+	margin-top: 0px;
+	margin: 0 !important;
+}
+.svitch{
+	margin: 0 !important;
+}
+
+
+#card1{
+	display: inline-block;
+	width: 300px;
+	height: 600px;
+	margin: 6px;
+}
+
+.hm-fieldset{
+	margin-left: 15px;
+	margin-top: 2px;
+	margin-right: 15px;
+	height: 300px;
+	border: 1px ridge !important;
+	padding: 0 10px 10px 10px !important;
+	padding-top: 12 px;
+}
+
+.hm-legend{
+	font-size: 15px;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #555;
+	border-bottom: none;
+	width: auto;
+	padding: 0 10px;
+}
+
+.box {
+	margin-top: 0px;
+	padding: 20px;
+	outline: 20ps solid #ccc;
+	outline-offset: -10px;
+	
+} 
