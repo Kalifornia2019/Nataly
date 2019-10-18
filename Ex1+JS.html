@@ -1,0 +1,436 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Дополнительная иформация по свичу</title>	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css" type="text/css">
+ </head>
+ <body>
+		
+<section id="introduction">
+		<div class="container-fluid"> 
+		<div class=" border">
+			<div class="p-2 m-0 bg-info text-white text-center" class="border border-bordered" id="cont1">
+			<div class="row">
+				<div class="col-12">Доп.информация по свитчу</div>
+			</div>
+			</div>
+			
+			<div class="p-3 m-0 bg-white text-dark">
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<div class="border border-ridge">Описание:</div>
+				</div>
+				<div class="form-group col-md-9">
+					<div class="card-text border border-ridge" id='recipient-name1'>DES-3200-26/C1 Fast Ethernet Switch </div>
+				</div>
+			</div>
+			
+			
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<div class="border border-ridge">Положение:</div>
+				</div>
+				<div class="form-group col-md-9">
+					<div class="card-text border border-ridge" id="location1">Lesnoy_20_1par_2</div>
+				</div>
+			</div>
+			
+			
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<div class="border border-ridge">Прошивка:</div>
+				</div>
+				<div class="form-group col-md-9">
+					<div class="card-text border border-ridge" id="firmware1">4.37.B013</div>
+				</div>
+			</div>		
+			
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<div class="border border-ridge">Ревизия:</div>
+				</div>
+				<div class="form-group col-md-9">
+					<div class="card-text border border-ridge" id="audit1">C1</div>
+				</div>
+			</div>	
+			
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<div class="border border-ridge">IP:</div>
+				</div>
+				<div class="form-group col-md-9">
+					<div class="card-text border border-ridge"  id="ip1">10.11.71.93</div>
+				</div>
+			</div>
+			
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<div class="border border-ridge">MAC:</div>
+				</div>
+				<div class="form-group col-md-9">
+					<div class="card-text border border-ridge" id="mac1">90:94:e4:20:35:80</div>
+				</div> 
+			</div>
+			
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<div class="border border-ridge">hiVlan:</div>
+				</div>
+				<div class="form-group col-md-9">
+					<div class="card-text border border-ridge" id="hi1">3768</div>
+				</div>
+			</div>
+			
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<div class="border border-ridge">loVlan:</div>
+				</div>
+				<div class="form-group col-md-9">
+					<div class="card-text border border-ridge" id="lo1">3100</div>
+				</div>
+			</div>
+			
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<div class="border border-ridge">Адрec:</div>
+				</div>
+				<div class="form-group col-md-9">
+					<div class="card-text border border-ridge" id="address-text1">пр. Лесной 20 под.1 свитч №1</div>
+				</div>
+			</div>
+		</div>
+		
+			<div>
+			<span clas="border m-0">
+				<button class="btn  btn-warning btn-block btn-outline-secondary" data-toggle="modal" data-target="#exampleModal" > Редактировать свитч (8296)</button>
+			<span>
+			</div>
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">New subscrider</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form>
+						<div class="row">
+						<div class="col-md-6">
+							<label for="recipient-name" class="col-form-label">Описание:</label>
+							<input type="text" class="form-control" id="recipient-name">
+						</div>
+						<div class="col-md-6">
+							<label for="location" class="col-form-label">Положение:</label>
+							<input type="text" class="form-control" id="location">
+						</div>
+						</div>
+						<div class="row">
+						<div class="col-md-6">
+							<label for="firmware" class="col-form-label">Прошивка:</label>
+							<input type="text" class="form-control" id="firmware">
+						</div>
+						<div class="col-md-6">
+							<label for="audit" class="col-form-label">Ревизия:</label>
+							<input type="text" class="form-control" id="audit">
+						</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<label for="ip" class="col-form-label">IP:</label>
+								<input type="text" class="form-control" id="ip">
+							</div>
+							<div class="col-md-6">
+								<label for="mac" class="col-form-label">MAC:</label>
+								<input type="text" class="form-control" id="mac">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<label for="hi" class="col-form-label">hiVlan:</label>
+								<input type="text" class="form-control" id="hi">
+							</div>
+							<div class="col-md-6">
+								<label for="lo" class="col-form-label">loVlan:</label>
+								<input type="text" class="form-control" id="lo">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<label for="address-text" class="col-form-label">Адресс:</label>
+								<input type="text" class="form-control" id="address-text">
+							</div>
+						</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary" id="save" data-dismiss="modal">Save</button>
+			</div>
+		</div>
+	</div>
+</div>	
+<div class="container-fluid"> 
+		<fieldset class="hm-fieldset">
+			<legend class="hm-legend">Управление:</legend>
+			
+				<button type="button" class="btn  btn-warning btn-block btn-outline-dark"> Перезагрузить</button>
+				<button type="button" class="btn  btn-warning btn-block btn-outline-dark"> Попингуй</button>
+				<button type="button" class="btn  btn-warning btn-block btn-outline-dark"> MAC-Адрecа с портов</button>
+				<button type="button" class="btn  btn-warning btn-block btn-outline-dark"> Расположение свитча</button>
+				<button type="button" class="btn  btn-warning btn-block btn-outline-dark"> Консоль тельнет</button>
+				<button type="button" class="btn  btn-danger btn-block btn-outline-dark"> Всех абонов ногами в живот</button>
+			</div>
+		</fieldset>
+</div>
+	
+<section id="introduct">
+		<div class="container-fluid"> 
+		<div class="border border-bordered">
+			<div class="p-3 mb-0 text-white text-center" class="border border-bordered box" id="cont1">
+			<div class="row   bg-info border border-ridge">
+				<div class="col-12 ">D-Link DES-3200-26</div>
+			</div>
+			<div class="row bg-info border border-ridge ">
+				<div class="col-12">Свободные порты</div>
+			</div>
+			</div>
+		</div>	
+		
+			<div class="row">
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-success justify-content-center align-items-center">
+					1
+					</div>
+					<div class="card-body  border border-ridge">
+						<h6 class="card-title">Шишко Василий Николаевич(8296)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 96</p>
+						<p>100Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Вкл.</button>
+					</div>
+					</div>
+				
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-danger justify-content-center align-items-center">
+					2
+					</div>
+					<div class="card-body  border border-ridge">
+						<h6 class="card-title">Красикова Лариса Васильевна(7990)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 86</p>
+						<p>0Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Выкл.</button>
+					</div>
+					</div>
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-danger justify-content-center align-items-center">
+					3
+					</div>
+					<div class="card-body border border-ridge">
+						<h6 class="card-title">Бережно Елена Владимировна(7945)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 47</p>
+						<p>0Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Выкл.</button>
+					</div>
+					</div>
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					
+					<div class="d-flex w-25 bg-success justify-content-center align-items-center">
+					4
+					</div>
+					<div class="card-body border border-ridge">
+						<h6 class="card-title">Карпова Евгения Ивановна (3793)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 44</p>
+						<p>100Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Вкл.</button>
+					</div>
+					</div>
+					
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-danger justify-content-center align-items-center">
+					5
+					</div>
+					<div class="card-body  border border-ridge">
+						<h6 class="card-title">Шевченко Василий Иванович(8296)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 54</p>
+						<p>0Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Выкл.</button>
+					</div>
+					</div>
+				
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-success justify-content-center align-items-center">
+					6
+					</div>
+					<div class="card-body  border border-ridge">
+						<h6 class="card-title">Красикова Лариса Васильевна(7990)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 86</p>
+						<p>100Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Вкл.</button>
+					</div>
+					</div>
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-success justify-content-center align-items-center">
+					7
+					</div>
+					<div class="card-body border border-ridge">
+						<h6 class="card-title">Бережно Елена Владимировна(7945)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 47</p>
+						<p>100Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Вкл.</button>
+					</div>
+					</div>
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					
+					<div class="d-flex w-25 bg-success justify-content-center align-items-center">
+					8
+					</div>
+					<div class="card-body border border-ridge">
+						<h6 class="card-title">Карпова Евгения Ивановна (3793)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 44</p>
+						<p>100Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Вкл.</button>
+					</div>
+					</div>
+
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-success justify-content-center align-items-center">
+					9
+					</div>
+					<div class="card-body  border border-ridge">
+						<h6 class="card-title">Шишко Василий Николаевич(8296)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 96</p>
+						<p>100Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Вкл.</button>
+					</div>
+					</div>
+				
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-danger justify-content-center align-items-center">
+					10
+					</div>
+					<div class="card-body  border border-ridge">
+						<h6 class="card-title">Красикова Лариса Васильевна(7990)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 86</p>
+						<p>0Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Выкл.</button>
+					</div>
+					</div>
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-danger justify-content-center align-items-center">
+					11
+					</div>
+					<div class="card-body border border-ridge">
+						<h6 class="card-title">Бережно Елена Владимировна(7945)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 47</p>
+						<p>0Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Выкл.</button>
+					</div>
+					</div>
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					
+					<div class="d-flex w-25 bg-success justify-content-center align-items-center">
+					12
+					</div>
+					<div class="card-body border border-ridge">
+						<h6 class="card-title">Карпова Евгения Ивановна (3793)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 44</p>
+						<p>100Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Вкл.</button>
+					</div>
+					</div>
+					
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-success justify-content-center align-items-center">
+					13
+					</div>
+					<div class="card-body  border border-ridge">
+						<h6 class="card-title">Шишко Василий Николаевич(8296)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 96</p>
+						<p>100Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Вкл.</button>
+					</div>
+					</div>
+				
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-danger justify-content-center align-items-center">
+					14
+					</div>
+					<div class="card-body  border border-ridge">
+						<h6 class="card-title">Красикова Лариса Васильевна(7990)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 86</p>
+						<p>0Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Выкл.</button>
+					</div>
+					</div>
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					<div class="d-flex w-25 bg-success  justify-content-center align-items-center">
+					15
+					</div>
+					<div class="card-body border border-ridge">
+						<h6 class="card-title">Бережно Елена Владимировна(7945)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 47</p>
+						<p>100Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Вкл.</button>
+					</div>
+					</div>
+					<div class="d-flex col-xl-3 col-lg-3 col-md-4 col-sm-5" >
+					
+					<div class="d-flex w-25 bg-danger justify-content-center align-items-center">
+					16
+					</div>
+					<div class="card-body border border-ridge">
+						<h6 class="card-title">Карпова Евгения Ивановна (3793)</h6>
+						<p class="card-text">пр. Лесной 20 кв. 44</p>
+						<p>0Mbps</p>
+						<button type="button" class="btn  btn-warning btn-block"> Выкл.</button>
+					</div>
+					</div>
+					
+			</div>			
+			
+</section>
+
+	
+
+  
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+<script>
+
+var button;
+$('#exampleModal').on('show.bs.modal', function (event) {
+	button = $(event.relatedTarget) // Button that triggered the modal
+	var recipient = button.data('whatever') // Extract info from data-* attributes
+	// If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+	// Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+	var modal = $(this)
+	modal.find('.modal-title').text('New subscrider ' + recipient)
+	modal.find('.modal-body input').val(recipient)
+})
+
+$('#save').click(function(){
+	$('#recipient-name1').text($('#recipient-name').val());
+	$('#location1').text($('#location').val());
+	$('#firmware1').text($('#firmware').val());
+	$('#audit1').text($('#audit').val());
+	$('#ip1').text($('#ip').val());
+	$('#mac1').text($('#mac').val());
+	$('#hi1').text($('#hi').val());
+	$('#lo1').text($('#lo').val());
+	$('#address-text1').text($('#address-text').val());
+})
+</script>
+			
+			
+			
+			
+ </body>
+</html>
